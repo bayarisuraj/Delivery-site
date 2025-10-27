@@ -1,0 +1,9 @@
+/* Custom styling to improve the Bootstrap look */
+body { background: linear-gradient(180deg,#f7fbff 0%, #eef6ff 100%); }
+.card { border-radius: 12px; }
+.navbar-brand { font-weight: 700; letter-spacing: .5px; }
+.card-title { font-weight: 600; }
+.table td, .table th { vertical-align: middle; }
+@media (max-width: 576px) {
+  .navbar-text { display:none; }
+}
